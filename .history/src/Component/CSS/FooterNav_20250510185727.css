@@ -1,0 +1,156 @@
+/* .Footer-Navbar {
+  width: 50%;
+  position: fixed; 
+  bottom: 0;      
+  left: 0;
+  z-index: 9999;   
+  background-color: #111;
+  padding: 15px 0;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  
+}
+
+.nav-br {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.nav-br img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav-br ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.nav-br a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-br a:hover {
+  color: #f4b400;
+}
+
+ */
+
+
+
+
+
+ .Footer-Navbar {
+  width: 50vw;
+  min-width: 280px;
+  max-width: 100vw;
+  position: fixed;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background-color: #000000;
+  padding: 1rem 0;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -0.2rem 2rem rgba(10, 10, 10, 0.4);
+}
+
+.nav-br {
+  width: 90%;
+  max-width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.nav-br img {
+  height: 2.5rem; /* equals ~40px */
+  object-fit: contain;
+}
+
+.nav-br ul {
+  display: flex;
+  gap: 1.5rem; /* roughly 24px */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-br a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav-br a:hover {
+  color: #f4b400;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 321px) {
+  .Footer-Navbar {
+    width: 100vw;
+    min-width: 280px;
+    bottom: 1vh;
+    padding: 0.8rem 0;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-br {
+    width: 95%;
+    max-width: 90vw;
+    gap: 0rem;
+  }
+
+  .nav-br img {
+  height: 10vh;
+  width: ;
+  }
+
+  .nav-br ul {
+    gap: 0rem; /* reduced spacing between links */
+    justify-content: space-around; /* better space distribution */
+    width: 100%; /* take full width */
+  }
+
+  .nav-br a {
+    font-size: 0.8rem; /* smaller font */
+    padding: 0.2rem 0; /* some vertical padding */
+  }
+}

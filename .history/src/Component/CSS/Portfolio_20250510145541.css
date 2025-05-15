@@ -1,0 +1,701 @@
+/* body{
+
+  margin: 0;
+  padding: 0;
+}
+
+.Portfolio-Container{
+  background-color: #000000;
+ 
+ 
+  height: auto;
+  margin-bottom: 150px;
+ 
+
+}
+
+.Portfolio{
+
+
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 15px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+}
+
+
+.Portfolio-head{
+  font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight:400;
+  color:rgb(204,204,204);
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 0px;
+
+}
+
+
+.Portfolio-info{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 600px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+  font-size: 12px;
+  line-height: 21px;
+  flex-direction: column; 
+
+}
+
+.Mobile-box {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  
+ 
+
+  justify-content: center;
+  max-width: 1200px;
+  background-color: #161616;
+  height: 650px;
+  width: 100%; 
+  margin-left: 150px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+
+}
+
+
+.Mobile-Application{
+ 
+
+margin-top: 100px;
+
+  margin-left: 50px;
+font-family: Bebas Neue, Bebas Neue Placeholder , sans-serif;
+max-width:500px;
+font-style: normal;
+font-weight: 400;
+color:rgb(204, 204, 204);
+font-size: 65px;
+list-style: 108px;
+width: 800px;
+
+}
+
+
+.Mobile-info{
+
+  font-family: Roboto Condensed ,Roboto Condensed Placeholder , sans-serif;
+  max-width: 570px;
+  font-style:normal;
+  font-weight:400;
+  color:rgb(163, 163, 163);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 50px;
+} 
+
+.Mobile-OurServices{
+
+  font-family: Robobto Condensed , Roboto Condensed Placeholder , sans-serif;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204, 204, 204);
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: row;
+}
+
+.Mobile-Service{
+display: flex;
+  font-family: Roboto Condensed , Roboto Condensed Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255, 195, 0);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 2px;
+}
+
+.Mobile-Profile{
+  display: flex;
+
+  flex-direction: row;
+  height: 80%;
+  width:100px;
+  margin-left:650px;
+  margin-top: 20px;
+
+
+}
+
+.Mobile-Check {
+  background-color: aliceblue;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  width: 200px;
+  padding: 15px;
+  border-radius: 250px;
+  margin-left: 50px;
+  transition: background-color 0.1s ease 0.5s;
+}
+
+.Mobile-Check:hover {
+  background-color: rgb(255, 195, 0);
+  cursor: pointer;
+}
+
+.Medipro-img{
+
+  display: flex;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  filter: grayscale(100%);
+  margin-top: -400px;
+ 
+}
+
+ .FlexiFund-Application{
+
+  margin-top: 100px;
+
+  margin-left: 50px;
+font-family: Bebas Neue, Bebas Neue Placeholder , sans-serif;
+max-width:500px;
+font-style: normal;
+font-weight: 400;
+color:rgb(204, 204, 204);
+font-size: 65px;
+list-style: 108px;
+width: 800px;
+
+ }
+
+
+ .FlexiFund-info{
+  font-family: Roboto Condensed ,Roboto Condensed Placeholder , sans-serif;
+  max-width: 570px;
+  font-style:normal;
+  font-weight:400;
+  color:rgb(163, 163, 163);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 50px;
+
+ }
+
+
+ .FlexiFund-OurServices{
+  font-family: Robobto Condensed , Roboto Condensed Placeholder , sans-serif;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204, 204, 204);
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: row;
+
+ }
+
+ .FlexiFund-Service{
+
+  display: flex;
+  font-family: Roboto Condensed , Roboto Condensed Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255, 195, 0);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 2px;
+
+ }
+
+ .FlexiFund-Check{
+
+  background-color: aliceblue;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  width: 200px;
+  padding: 15px;
+  border-radius: 250px;
+  margin-left: 50px;
+  transition: background-color 0.1s ease 0.5s;
+
+
+ }
+
+ .FlexiFund-Check:hover{
+  background-color: rgb(255, 195, 0);
+  cursor: pointer;
+
+ }
+
+
+ .FlexiFund-Profile{
+  display: flex;
+
+  flex-direction: row;
+  height: 80%;
+  width:100px;
+  margin-left:650px;
+  margin-top: 20px;
+
+ }
+
+
+ .FlexiFund-img{
+
+  display: flex;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  filter: grayscale(100%);
+  margin-top: -350px;
+
+ }
+
+
+
+
+
+ .Mall-Application{
+  margin-top: 100px;
+
+  margin-left: 50px;
+font-family: Bebas Neue, Bebas Neue Placeholder , sans-serif;
+max-width:500px;
+font-style: normal;
+font-weight: 400;
+color:rgb(204, 204, 204);
+font-size: 65px;
+list-style: 108px;
+width: 800px;
+
+ }
+
+ .Mall-info{
+  font-family: Roboto Condensed ,Roboto Condensed Placeholder , sans-serif;
+  max-width: 570px;
+  font-style:normal;
+  font-weight:400;
+  color:rgb(163, 163, 163);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 50px;
+
+ }
+
+ .Mall-OurServices{
+  font-family: Robobto Condensed , Roboto Condensed Placeholder , sans-serif;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204, 204, 204);
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: row;
+
+ }
+
+ .Mall-Service{
+
+  display: flex;
+  font-family: Roboto Condensed , Roboto Condensed Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255, 195, 0);
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 2px;
+
+ }
+
+ .Mall-Check{
+
+  background-color: aliceblue;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  width: 200px;
+  padding: 15px;
+  border-radius: 250px;
+  margin-left: 50px;
+  transition: background-color 0.1s ease 0.5s;
+
+ }
+
+ .Mall-Check:hover{
+  background-color: rgb(255, 195, 0);
+  cursor: pointer;
+
+ }
+
+ .Mall-Profile{
+
+  display: flex;
+
+  flex-direction: row;
+  height: 80%;
+  width:100px;
+  margin-left:650px;
+  margin-top: 20px;
+
+ }
+
+ .Mall-img{
+  display: flex;
+  height: 500px;
+  width: 500px;
+ margin-top: -300px;
+  border-radius: 30px;
+  filter: grayscale(100%);
+
+ }
+
+
+
+
+
+
+  */
+
+
+
+
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Portfolio-Container {
+    background-color: #000000;
+    height: auto;
+    margin-bottom: 10vh;
+
+  }
+  
+  .Portfolio {
+    display: flex;
+    margin-left: 10vw;
+    border-radius: 2rem;
+    padding: 2vh 3vw;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(63, 62, 62);
+    width: 30%;
+    color: #EEB701;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+  }
+  
+  .Portfolio-head {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    line-height: 8rem;
+    color: rgb(204, 204, 204);
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Portfolio-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    flex-direction: column;
+  }
+  
+  .Mobile-box {
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #161616;
+    height: 100vh;
+    width: 85%;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+    border-radius: 2rem;
+  }
+  
+  .Mobile-Application {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: rgb(204, 204, 204);
+    max-width: 80%;
+    width: 100%;
+  }
+  
+  .Mobile-info {
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 40%;
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 5vw;
+  }
+  
+  .Mobile-OurServices {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2vh;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 1rem;
+    display: flex;
+    margin-left: 5vw;
+    flex-direction: row;
+  }
+  
+  .Mobile-Service {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 195, 0);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 2vw;
+  }
+  
+  .Mobile-Profile {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 10vw;
+    margin-left: 50%;
+    margin-top: 0vh;
+  }
+  
+  .Mobile-Check {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    padding: 2vh;
+    border-radius: 2rem;
+    margin-left: 5vw;
+    transition: background-color 0.1s ease 0.5s;
+  }
+  
+  .Mobile-Check:hover {
+    background-color: rgb(255, 195, 0);
+    cursor: pointer;
+  }
+  
+  .Medipro-img {
+    display: flex;
+    height: 45vh;
+    width: 35vw;
+    object-fit: cover;
+    border-radius: 2rem;
+    filter: grayscale(100%);
+    margin-top: -60vh;
+  }
+  
+  .FlexiFund-Application {
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: rgb(204, 204, 204);
+    max-width: 50%;
+    width: 100%;
+  }
+  
+  .FlexiFund-info {
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 50%;
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 5vw;
+  }
+  
+  .FlexiFund-OurServices {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2vh;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 1rem;
+    display: flex;
+    margin-left: 5vw;
+    flex-direction: row;
+  }
+  
+  .FlexiFund-Service {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 195, 0);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 2vw;
+  }
+  
+  .FlexiFund-Check {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    padding: 2vh;
+    border-radius: 2rem;
+    margin-left: 5vw;
+    transition: background-color 0.1s ease 0.5s;
+  }
+  
+  .FlexiFund-Check:hover {
+    background-color: rgb(255, 195, 0);
+    cursor: pointer;
+  }
+  
+  .FlexiFund-Profile {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 30vw;
+    margin-left: 60%;
+
+  }
+  
+  .FlexiFund-img {
+    display: flex;
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 2rem;
+    filter: grayscale(100%);
+    margin-top: -55vh;
+  }
+  
+  .Mall-Application {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: rgb(204, 204, 204);
+    max-width: 50%;
+    width: 50%;
+  }
+  
+  .Mall-info {
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 50%;
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 5vw;
+  }
+  
+  .Mall-OurServices {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2vh;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 1rem;
+    display: flex;
+    margin-left: 5vw;
+    flex-direction: row;
+  }
+  
+  .Mall-Service {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 195, 0);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 2vw;
+  }
+  
+  .Mall-Check {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    padding: 2vh;
+    border-radius: 2rem;
+    margin-left: 5vw;
+    transition: background-color 0.1s ease 0.5s;
+  }
+  
+  .Mall-Check:hover {
+    background-color: rgb(255, 195, 0);
+    cursor: pointer;
+  }
+  
+  .Mall-Profile {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 30vw;
+    margin-left: 60%;
+  
+  }
+  
+  .Mall-img {
+    display: flex;
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 2rem;
+    filter: grayscale(100%);
+    margin-top: -50vh;
+  }
+  

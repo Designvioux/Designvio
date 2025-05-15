@@ -1,0 +1,121 @@
+body{
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.heroSection{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin: 10;
+  padding: 0;
+
+}
+
+.page2{
+  position: absolute;
+
+  z-index: 999;
+  width: 100%;
+ 
+  top: 100vh;
+ 
+  background-color: black;
+}
+
+/* .page3{
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  top: 250vh;
+  background-color: black;
+} */
+
+
+.page3 {
+  position: relative;
+  z-index: 999;
+  width: 100vw;
+padding: 20px;
+  top: 250vh;
+  background-color: black;
+  
+   /* Add this */
+}
+
+
+:root{
+--Portfolio-main:3;
+--Mobile-boxHeight:650px;
+--Mobile-boxTopPadding:1.5rem;
+--Mobile-boxMargin:100px;  
+
+}
+
+.process-container{
+width: 90%;
+margin: 0 auto;
+}
+
+#Mobile-box{
+
+  list-style:none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--Portfolio-main),var(--Mobile-boxHeight));
+  gap:var(--Mobile-boxMargin);
+  padding-bottom: calc(var(--Portfolio-main)* var(--Mobile-boxTopPadding));
+  margin-bottom: var(--Mobile-boxMargin);
+
+}
+
+#Med1{
+ --index:1 
+}
+#Flex1{
+  --index:2
+}
+
+#Mall1{
+  --index:3;
+}
+
+.Mobile-box{
+  position:sticky;
+  top:0;
+  padding-top: calc(var(--index)*var(--Mobile-boxTopPadding));
+  background-color: black;
+  border:2px solid black;
+  max-width: 85%;
+  margin-left: 85px;
+}
+
+.Mobile-box-body{
+  box-sizing:border-box;
+  margin-top: 100px;
+  flex-direction: column;
+  max-width: 1200px;
+  border-radius: 30px;
+  box-shadow:  0 0  30px 0 black;
+  height: var(--Mobile-boxHeight);
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.back-container{
+  /* position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 100vh; */
+  background-color: #0c0c0c;
+  width: 100vw;
+}
+

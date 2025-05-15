@@ -1,0 +1,215 @@
+/* .book-container {
+  perspective: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.book {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: transform 1s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.page .front,
+.page .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page .front {
+  background: #fefefe;
+}
+
+.page .back {
+  background: #eaeaea;
+  transform: rotateY(180deg);
+}
+
+.page.flipped {
+  transform: rotateY(-180deg);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.buttons button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+ */
+
+/* Book.css */
+/* 
+.book-container {
+  perspective: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.book {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  transform-style: preserve-3d;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: transform 1s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page.flipped {
+  transform: rotateY(-180deg);
+  z-index: 0 !important;
+}
+
+.page .front,
+.page .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.page .front {
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  z-index: 2;
+}
+
+.page .back {
+  background: linear-gradient(135deg, #ffebee, #ffcdd2);
+  transform: rotateY(180deg);
+}
+
+.page-content {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  background: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.buttons button:hover:not(:disabled) {
+  background: #004d40;
+} */
+
+
+
+.flipbook-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  height: 100vh;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #f9f9f9;
+}
+
+.flipbook {
+  margin: 0 auto;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.page-flip {
+  background: linear-gradient(to bottom right, #f0f0f0, #d8d8d8);
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+ 
+}
+
+.page-flip.cover {
+  background: linear-gradient(to bottom right, #4a90e2, #007aff);
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  
+}

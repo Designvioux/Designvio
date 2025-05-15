@@ -1,0 +1,801 @@
+/* body{
+
+  margin: 0;
+  padding: 0;
+
+ 
+  
+
+}
+
+
+.Services-Container{
+  background-color: #0c0c0c;
+ 
+  border: 2px solid rgb(22, 22, 22);
+  height: auto;
+  border-radius: 50px;
+  
+
+  width: 100%;
+  height:100%;
+
+}
+
+.ex-icon{
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+}
+
+
+.uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+
+  color: #ffc107;
+  margin-bottom: 1rem;
+  height: 52px;
+}
+
+
+.Services-Container .Our-Services{
+
+ 
+  display: flex;
+  margin-left: 43vw;
+  border-radius: 40px;
+  padding: 12px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+width:10vw;
+
+font-size: 18px;
+line-height: 23px;
+
+}
+
+
+.Services-que{
+
+font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+font-style: normal;
+font-weight:400;
+color:rgb(204,204,204);
+font-size: 60px;
+line-height: 72px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-left: 0px;
+
+}
+
+.Services-Container .info {
+
+
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 240px;
+  max-width: 1000px;
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(163,163,163);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+.service-grid {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+ margin: 0 auto;
+}
+
+.service-card {
+  background-color: #161616;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-family: Bebas Neue, Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204,204,204);
+  font-size: 40px;
+  line-height: 44px;
+  
+}
+
+.service-card p {
+  
+font-family: Roboto Condensed, Roboto Condensed Placeholder;
+font-style: normal;
+font-weight: 400;
+color:rgb(122,122,122);
+font-size: 16px;
+line-height: 21px;
+
+
+}
+
+.service-card a {
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255,195,0);
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.service-card a:hover {
+  color: #ffd54f;
+}
+ */
+
+
+ body {
+  margin: 0;
+  padding: 0;
+}
+
+.Services-Container {
+  background-color: #0c0c0c;
+  border: 0.125rem solid rgb(22, 22, 22);
+  border-radius: 3.125rem;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.ex-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-top: 0;
+}
+
+.uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+  color: #ffc107;
+  margin-bottom: 1rem;
+  height: 3.25rem;
+}
+
+.Services-Container .Our-Services {
+  display: flex;
+  margin: 6.25rem auto 0 auto;
+  border-radius: 2.5rem;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  border: 0.125rem solid rgb(63, 62, 62);
+  width: max(10vw, 6rem);
+  color: #EEB701;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  text-align: center;
+}
+
+.Services-que {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  line-height: clamp(2.5rem, 6vw, 4.5rem);
+  margin-top: 1.25rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+
+.Services-Container .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem auto;
+  max-width: 62.5rem;
+  padding: 0 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(163, 163, 163);
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #161616;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0.25rem 1.25rem rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.375rem 1.5rem rgba(255, 255, 255, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-card h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: rgb(204, 204, 204);
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  text-align: center;
+}
+
+.service-card p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(122, 122, 122);
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  text-align: center;
+}
+
+.service-card a {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(255, 195, 0);
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.service-card a:hover {
+  color: #ffd54f;
+}
+
+@media screen and (max-width: 769px) {
+  .Services-Container {
+    padding: 2.5rem;
+  }
+
+  .Services-Container .Our-Services {
+    width: 50%;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .Services-que {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .Services-Container .info {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    padding: 0 3rem;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding: 3rem 2rem;
+  }
+
+  .service-card {
+    padding: 2.5rem;
+  }
+
+  .service-icon {
+    font-size: 3.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+
+  .service-card p,
+  .service-card a {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .Services-Container {
+    padding: 2rem;
+  }
+
+  .Services-Container .Our-Services {
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .Services-que {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .Services-Container .info {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 0 2rem;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .service-card {
+    padding: 2rem;
+  }
+
+  .service-icon {
+    font-size: 3rem;
+  }
+
+  .service-card h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .service-card p,
+  .service-card a {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Services-Container {
+    background-color: #0c0c0c;
+    border: 0.125rem solid rgb(22, 22, 22);
+    border-radius: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+ 
+  .Services-Container .ex-icon {
+    height: 10%;
+    width: 10%;
+    margin-top: 2%;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+    height: 4rem;
+  }
+
+  .Services-Container .Our-Services {
+    display: flex;
+    margin: 3rem auto 0 auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    border: 0.125rem solid rgb(63, 62, 62);
+    width: 55%;
+    color: #EEB701;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+
+  
+
+  .Services-que {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Services-Container .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .service-card {
+    background-color: #161616;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 1.25rem rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+
+  .service-card:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.375rem 1.5rem rgba(255, 255, 255, 0.1);
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .service-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(204, 204, 204);
+    font-size: 2rem;
+    line-height: 2.25rem;
+    text-align: center;
+  }
+
+  .service-card p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(122, 122, 122);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .service-card a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 195, 0);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .service-card a:hover {
+    color: #ffd54f;
+  }
+}
+
+
+
+@media screen and (max-width: 376px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Services-Container {
+    background-color: #0c0c0c;
+    border: 0.125rem solid rgb(22, 22, 22);
+    border-radius: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  .ex-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-top: 0;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    color: #ffc107;
+    margin-bottom: 1.25rem;
+    height: 3.5rem;
+
+  }
+
+  .Services-Container .Our-Services {
+    display: flex;
+    margin: 3rem auto 0 auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    border: 0.125rem solid rgb(63, 62, 62);
+    width: 50%;
+    color: #EEB701;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .Services-que {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Services-Container .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(163, 163, 163);
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    text-align: center;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    padding: 2rem 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .service-card {
+    background-color: #161616;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 1.25rem rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+
+  .service-card:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.375rem 1.5rem rgba(255, 255, 255, 0.1);
+  }
+
+  .service-icon {
+    font-size: 2.25rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .service-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(204, 204, 204);
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .service-card p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(122, 122, 122);
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    text-align: center;
+  }
+
+  .service-card a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 195, 0);
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .service-card a:hover {
+    color: #ffd54f;
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Services-Container {
+    background-color: #0c0c0c;
+    border: 0.125rem solid rgb(22, 22, 22);
+    border-radius: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .ex-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-top: 0;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    color: #ffc107;
+    margin-bottom: 1rem;
+    height: 3rem;
+  }
+
+  .Services-Container .Our-Services {
+    display: flex;
+    margin: 3rem auto 0 auto;
+    border-radius: 2rem;
+    padding: 0.75rem;
+    justify-content: center;
+    border: 0.125rem solid rgb(63, 62, 62);
+    width: 60%;
+    color: #EEB701;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+
+  .Services-que {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 1.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Services-Container .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(163, 163, 163);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .service-card {
+    background-color: #161616;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.25rem 1.25rem rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+
+  .service-card:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.375rem 1.5rem rgba(255, 255, 255, 0.1);
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .service-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(204, 204, 204);
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+
+  .service-card p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(122, 122, 122);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+
+  .service-card a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 195, 0);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .service-card a:hover {
+    color: #ffd54f;
+  }
+}

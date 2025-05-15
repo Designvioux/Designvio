@@ -1,0 +1,530 @@
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  
+  
+
+  background: url( '../../Icons/bg.jpg-min.jpg' );
+  color: #fff;
+
+  
+
+}
+
+
+.home-container{
+  height: 100%;
+  width: 100%;
+
+ 
+  
+ 
+ 
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-image: url( '../../Icons/bg.jpg-min.jpg' );
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-top: -200px;
+
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  
+  
+}
+
+.logo-icon {
+  width: 150px;
+  height: 50px;
+ 
+ 
+}
+
+
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.nav-links a:hover {
+  color: #fbc500;
+}
+
+.main-content {
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  
+  
+
+  background: url( '../../Icons/bg.jpg-min.jpg' );
+
+
+z-index: 0;
+
+background-size: cover;
+
+
+border-radius: 0px 0px 0px 0px;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: scaleUp 1s ease-out forwards;
+  animation-delay: 0.3s;
+  
+}
+
+.main-content h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 7.3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.highlight-yellow {
+  color: #fbc500;
+}
+
+.main-content p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ccc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 50px;
+}
+
+.cta-button {
+  margin-top: 1.2rem;
+  background-color: #ffffff;
+  color: #111;
+  border: none;
+  padding: 0.9rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e1a800;
+}
+
+
+@keyframes scaleUp {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 25px;
+  background-color: #ffffff;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+ */
+
+
+ body {
+  margin: 0;
+  padding: 0;
+  background: url('../../Icons/bg.jpg-min.jpg');
+  color: #fff;
+  font-size: 1rem; /* base size for rem/em scaling */
+}
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 vh 0vw;
+
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+  background-image: url('../../Icons/bg.jpg-min.jpg');
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-top: -12vh;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5vw;
+}
+
+.logo-icon {
+  width: 12vw;
+  height: auto;
+  max-height: 7vh;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2vw;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #fbc500;
+}
+
+.main-content {
+  text-align: center;
+  padding: 8vh 5vw 5vh;
+  background: url('../../Icons/bg.jpg-min.jpg');
+  background-size: cover;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: scaleUp 1s ease-out forwards;
+  animation-delay: 0.3s;
+  border-radius: 0;
+  height: 100vh;
+  margin-top: 10vh;
+  padding: 20vh;
+
+}
+
+.main-content h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: min(12vw, 7.5rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.highlight-yellow {
+  color: #fbc500;
+}
+
+.main-content p {
+  margin-top: 2vh;
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 5vh;
+}
+
+.cta-button {
+  margin-top: 2vh;
+  background-color: #ffffff;
+  color: #111;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: Roboto Condensed;
+}
+
+.cta-button:hover {
+  background-color: #e1a800;
+}
+
+@keyframes scaleUp {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 1vh;
+  z-index: 1000;
+}
+
+.hamburger .bar {
+  height: 0.3vh;
+  width: 6vw;
+  background-color: #ffffff;
+  margin: 0.5vh 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* 770px to 1024px (Tablets) */
+@media (max-width: 1024px) and (min-width: 770px) {
+  .logo-icon {
+    width: 18vw;
+    max-height: 6vh;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    margin-left: 1.5vw;
+  }
+
+  .main-content {
+    padding: 15vh 5vw;
+  }
+
+  .main-content h1 {
+    font-size: 8vw;
+  }
+
+  .main-content p {
+    font-size: 1rem;
+    max-width: 80vw;
+  }
+
+  .cta-button {
+    padding: 0.8rem 2rem;
+    font-size: 0.95rem;
+  }
+}
+
+
+@media (max-width: 1400px) {
+  .home-header {
+    padding: 1.5vh 4vw;
+    margin-top: -10vh;
+  }
+
+  .logo-icon {
+    width: 14vw;
+    max-height: 8vh;
+  }
+
+  .nav-links a {
+    margin-left: 1.5vw;
+    font-size: 1rem;
+  }
+
+  .main-content {
+    padding: 15vh 4vw 4vh;
+    margin-top: 8vh;
+  }
+
+  .main-content h1 {
+    font-size: min(14vw, 6.5rem);
+  }
+
+  .main-content p {
+    font-size: 1rem;
+    max-width: 70vw;
+    margin-bottom: 4vh;
+  }
+
+  .cta-button {
+    padding: 0.9rem 2.5rem;
+    font-size: 0.95rem;
+  }
+
+  .hamburger .bar {
+    width: 5vw;
+  }
+}
+
+
+/* 1025px to 1440px (Standard Desktops) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .logo-icon {
+    width: 12vw;
+  }
+
+  .nav-links a {
+    font-size: 1.05rem;
+  }
+
+  .main-content {
+    padding: 20vh 5vw;
+  }
+
+  .main-content h1 {
+    font-size: 7vw;
+  }
+
+  .main-content p {
+    font-size: 1.05rem;
+    max-width: 70vw;
+  }
+}
+
+/* 1441px to 1920px (Large Screens) */
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .logo-icon {
+    width: 10vw;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
+  }
+
+  .main-content h1 {
+    font-size: 6.5vw;
+  }
+
+  .main-content p {
+    font-size: 1.1rem;
+  }
+
+  .cta-button {
+    font-size: 1.1rem;
+  }
+}
+
+/* 1921px to 2561px (Ultra-Wide Monitors) */
+@media (min-width: 1921px) {
+  .home-container,
+  .main-content {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .logo-icon {
+    width: 8vw;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+
+  .main-content h1 {
+    font-size: 5.5vw;
+  }
+
+  .main-content p {
+    font-size: 1.2rem;
+    max-width: 50vw;
+  }
+
+  .cta-button {
+    padding: 1.2rem 3.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+
+/* Responsive for screen widths between 321px to 769px */
+@media (max-width: 769px) {
+  .home-header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    margin-top: 0vh;
+
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center; /* ✅ Add this */
+    text-align: center;  /* ✅ Optional for cleaner look */
+    top: 12vh;
+    right: 0vw;
+    background-color: rgba(0, 0, 0, 1);
+padding: 5vw 0vw;
+
+    z-index: 999;
+    width: 100vw;
+  
+    
+  }
+
+  .nav-links.open {
+    display: flex;
+
+
+  }
+
+  .nav-links a {
+    margin: 1vh 0;
+    font-size: 1.2rem;
+
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .logo-icon {
+    width: 30vw;
+    max-height: 30vh;
+    margin-top: 20%;
+  }
+
+  .main-content {
+    padding: 20vh 5vw;
+    margin-top: 0vh;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-content p {
+    font-size: 1rem;
+    max-width: 90vw;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+}

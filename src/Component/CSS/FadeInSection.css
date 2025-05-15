@@ -1,0 +1,13 @@
+.fade-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+  filter: brightness(0.5); /* darker initially */
+  will-change: opacity, transform;
+}
+
+.fade-section.in-view {
+  opacity: 1;
+  transform: translateY(0);
+  filter: brightness(1); /* full brightness when in view */
+}

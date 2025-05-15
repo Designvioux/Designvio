@@ -1,0 +1,232 @@
+.footer {
+  background-color: #0c0c0c;
+  color: #e5e5e5;
+  padding: 3rem 2rem;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  padding-bottom: 2rem;
+}
+
+.footer-left {
+  max-width: 60%;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+
+.footer-nav {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+   transition: color 0.3s ease;
+  font-family: 'roboto condensed' , sans-serif;
+}
+ .link-c {
+  color: #fff;
+  text-decoration: none;
+ font-family:"Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  
+  transition: color 0.3s ease;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.link-c:hover {
+  color: #ffc107;
+}
+.footer-nav a:hover {
+  color: #ffc107;
+}
+
+.social-link{
+  color:white;
+ 
+
+}
+.tel-link{
+  color:rgb(163,163,163);
+  text-decoration: none;
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  size: 16px;
+  line-height: 21px;
+}
+.address h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.address p {
+  margin: 0.2rem 0;
+  color: #e6dfdf;
+}
+
+.footer-right {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+
+.contact-box h4,
+.social-box h4 {
+  /* color: #fff; */
+  margin-bottom: 0.5rem;
+  color: rgb(122,122,122);
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  size: 16px;
+  line-height: 21px;
+
+}
+
+.contact-box p {
+  color: #bbb;
+}
+
+.icons a {
+  color: #ccc;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #ffc107;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  color: rgb(122,122,122);
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  size: 16px;
+  line-height: 21px;
+}
+
+.legal-links a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.legal-links a:hover {
+  color: #fff;
+}
+/* .link-style {
+  background: none;
+  border: none;
+  color: #ccc;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+} */
+.footer-page{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  font-family: 'roboto condensed' , sans-serif;
+}
+
+.footer-logo{
+  display: flex;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.footer-address{
+  margin-left: 50px;
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  size: 18px;
+  line-height: 23px;
+}
+
+
+.footer-address h3{
+  font-weight: 400;
+}
+
+
+.tnc{
+  color:rgb(122,122,122);
+  text-decoration: none;
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  size: 16px;
+  line-height: 21px;
+}
+
+.cp{
+  color: white;
+  font-weight: 400;
+}
+
+.social-link{
+  margin-left: 20px;
+}
+.footer-address p {
+ font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+ color: rgb(163,163,163);
+ size: 16px;
+ line-height: 21px;
+}
+.touch{
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  size: 16px;
+  line-height: 23px;
+}
+.follow{
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  size: 16px;
+  line-height: 23px;
+}
+.footer-box{
+  border-radius: 15px;
+  
+  border: 2px solid rgb(54, 54, 54);
+ margin-right: 20px;
+ padding: 20px;
+}
+
+
+

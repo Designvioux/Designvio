@@ -1,0 +1,660 @@
+/* body{
+
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.Aboutus-Container{
+  background-color: #0c0c0c;
+ width: 100%;
+
+
+
+ 
+
+}
+
+.About-us{
+
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 200px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+
+font-size: 14px;
+line-height: 23px;
+
+
+}
+
+
+.About-que{
+  font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight:400;
+  color:rgb(204,204,204);
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 0px;
+
+}
+
+
+.About-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 600px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+  font-size: 13px;
+  line-height: 21px;
+  flex-direction: column; 
+}
+
+
+.Features{
+
+
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 50px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 10%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+
+font-size: 14px;
+
+line-height: 23px;
+
+}
+
+
+.Features-head{
+
+  font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+font-style: normal;
+font-weight:400;
+color:rgb(204,204,204);
+font-size: 60px;
+line-height: 72px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-left: 0px;
+}
+
+.multidevice{
+  height: 50px;
+}
+.Features-info{
+
+  
+
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2px;
+  margin-left: 240px;
+  max-width: 1000px;
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(163,163,163);
+  font-size: 12px;
+  line-height: 21px;
+}
+
+
+.Features-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+ margin: 0 auto;
+
+}
+
+.Features-card{
+  cursor: pointer;
+  background-color: #161616;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+
+  
+}
+
+.Features-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.Features-heading{
+
+  font-family: Bebas Neue, Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204,204,204);
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+.Features-inform{
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+font-style: normal;
+font-weight: 400;
+color:rgb(122,122,122);
+font-size: 12px;
+line-height: 21px;
+
+
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  
+}
+
+.modal-content {
+  background: #131313;
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  text-align: left;
+  border-radius: 50px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background-color: white;
+ margin-top: 5px;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+  border:2px solid white;
+  border-radius: 20px;
+}
+
+.modal-close:hover{
+background-color: rgb(255, 195,0);;
+}
+
+.modal-title {
+font-family: "Bebas Neue","Bebas Neue Placeholder" , sans-serif;
+font-style: normal;
+font-weight: 400;
+color:rgb(255,255,255);
+font-size: 40px;
+line-height: 44px;
+margin-top: 30px;
+}
+
+.modal-text {
+  font-size: 13px;
+  line-height: 21px;
+  font-style: normal;
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder";
+  font-weight: 400;
+  color:rgb(204,204,204);
+  margin-top: 30px;
+
+}
+
+.back-to-page{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  width: 130px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", "Roboto Condeensed Placeholder";
+  font-style: normal;
+  font-weight: 400;
+  
+  font-size: 14px;
+
+}
+
+.back-to-page:hover{
+  background-color: rgb(255, 195,0);
+
+}
+
+
+
+.include-features {
+  display: flex;
+  flex-direction: row;
+  border:rgb(66, 66, 63) 2px solid;
+  width: 130px;
+  border-radius: 20px;
+  font-family: "Roboto Condensed", "Roboto Condeensed Placeholder";
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255, 195,0);
+  font-size: 14px;
+  line-height: 23px;
+  
+  
+
+}
+
+.ex-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 15px;
+  width: 15px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.ex-icon1{
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 0px;
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Aboutus-Container {
+  background-color: #0c0c0c;
+  width: 100%;
+}
+
+/* Responsive about-us label */
+.About-us {
+  display: flex;
+  margin: 50vh auto 0 auto;
+  border-radius: 2vw;
+  padding: 1vh 2vw;
+  justify-content: center;
+  border: 0.2vh solid rgb(63, 62, 62);
+  width: 10vw;
+  color: #EEB701;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+/* Responsive heading */
+.About-que {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+/* Centered, responsive text block */
+.About-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2vh auto 0 auto;
+  max-width: 80vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  color: rgb(163, 163, 163);
+  flex-direction: column;
+}
+
+/* Features label */
+.Features {
+  display: flex;
+  margin: 5vh auto 0 auto;
+  border-radius: 2vw;
+  padding: 1vh 2vw;
+  justify-content: center;
+  border: 0.2vh solid rgb(63, 62, 62);
+  width: 12vw;
+  color: #EEB701;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+/* Features header */
+.Features-head {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.multidevice {
+  height: 5vh;
+}
+
+/* Info under features heading */
+.Features-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9rem;
+  color: rgb(163, 163, 163);
+  line-height: 1.6rem;
+}
+
+/* Grid for feature cards */
+.Features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+  gap: 2rem;
+  padding: 5vh 2vw;
+  max-width: 90vw;
+  margin: auto;
+}
+
+/* Individual card */
+.Features-card {
+  background-color: #161616;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0.4rem 2rem rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.Features-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.6rem 2.4rem rgba(255, 255, 255, 0.1);
+}
+
+.Features-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: rgb(204, 204, 204);
+  margin-bottom: 1vh;
+}
+
+.Features-inform {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  color: rgb(122, 122, 122);
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #131313;
+  color: #fff;
+  padding: 3vh 4vw;
+  border-radius: 2rem;
+  width: 90vw;
+  max-width: 600px;
+  text-align: left;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  background-color: white;
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+
+.modal-close:hover {
+  background-color: rgb(255, 195, 0);
+}
+
+.modal-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: white;
+  margin-top: 1rem;
+}
+
+.modal-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  color: rgb(204, 204, 204);
+  margin-top: 1rem;
+}
+
+.back-to-page {
+  background-color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 30vw;
+  max-width: 130px;
+}
+
+.back-to-page:hover {
+  background-color: rgb(255, 195, 0);
+}
+
+/* Included feature badge */
+.include-features {
+  display: flex;
+  flex-direction: row;
+  border: 0.15rem solid rgb(66, 66, 63);
+  width: max(100px, 10vw);
+  border-radius: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(255, 195, 0);
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+/* Icons */
+.ex-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  width: 1rem;
+  margin: 0.2rem 0.5rem;
+}
+
+.ex-icon1 {
+  height: 1.2rem;
+  margin-right: 0.6rem;
+}
+
+
+
+@media screen and (max-width: 320px) {
+  
+  .About-us {
+    margin: 700vh auto 0 auto;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 50%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .About-que {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
+  .About-info {
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0 10px;
+    max-width: 90%;
+  }
+
+  .Features {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 60%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .Features-head {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
+  .Features-info {
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0 10px;
+    max-width: 90%;
+    margin-top: 10px;
+  }
+
+  .Features-grid {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+    gap: 1rem;
+  }
+
+  .Features-card {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .Features-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .Features-inform {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .modal-text {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .back-to-page {
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .include-features {
+    width: 100px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .ex-icon, .ex-icon1 {
+    height: 12px;
+    width: 12px;
+    margin: 2px;
+  }
+
+}

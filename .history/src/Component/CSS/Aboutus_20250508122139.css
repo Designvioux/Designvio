@@ -1,0 +1,652 @@
+body{
+
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.Aboutus-Container{
+  background-color: #0c0c0c;
+ 
+
+  height: auto;
+ 
+
+}
+
+.About-us{
+
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 200px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+
+font-size: 14px;
+line-height: 23px;
+
+
+}
+
+
+.About-que{
+  font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight:400;
+  color:rgb(204,204,204);
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 0px;
+
+}
+
+
+.About-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 600px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+  font-size: 13px;
+  line-height: 21px;
+  flex-direction: column; 
+}
+
+
+.Features{
+
+
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 50px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 10%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+
+font-size: 14px;
+line-height: 23px;
+
+}
+
+
+.Features-head{
+
+  font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+font-style: normal;
+font-weight:400;
+color:rgb(204,204,204);
+font-size: 60px;
+line-height: 72px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-left: 0px;
+}
+
+.multidevice{
+  height: 50px;
+}
+.Features-info{
+
+  
+
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2px;
+  margin-left: 240px;
+  max-width: 1000px;
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(163,163,163);
+  font-size: 12px;
+  line-height: 21px;
+}
+
+
+.Features-grid{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+ margin: 0 auto;
+
+}
+
+.Features-card{
+  cursor: pointer;
+  background-color: #161616;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+
+  
+}
+
+.Features-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.Features-heading{
+
+  font-family: Bebas Neue, Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204,204,204);
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+.Features-inform{
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+font-style: normal;
+font-weight: 400;
+color:rgb(122,122,122);
+font-size: 12px;
+line-height: 21px;
+
+
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  
+}
+
+.modal-content {
+  background: #131313;
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  text-align: left;
+  border-radius: 50px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background-color: white;
+ margin-top: 5px;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+  border:2px solid white;
+  border-radius: 20px;
+}
+
+.modal-close:hover{
+background-color: rgb(255, 195,0);;
+}
+
+.modal-title {
+font-family: "Bebas Neue","Bebas Neue Placeholder" , sans-serif;
+font-style: normal;
+font-weight: 400;
+color:rgb(255,255,255);
+font-size: 40px;
+line-height: 44px;
+margin-top: 30px;
+}
+
+.modal-text {
+  font-size: 13px;
+  line-height: 21px;
+  font-style: normal;
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder";
+  font-weight: 400;
+  color:rgb(204,204,204);
+  margin-top: 30px;
+
+}
+
+.back-to-page{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  width: 130px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", "Roboto Condeensed Placeholder";
+  font-style: normal;
+  font-weight: 400;
+  
+  font-size: 14px;
+
+}
+
+.back-to-page:hover{
+  background-color: rgb(255, 195,0);
+
+}
+
+
+
+.include-features {
+  display: flex;
+  flex-direction: row;
+  border:rgb(66, 66, 63) 2px solid;
+  width: 130px;
+  border-radius: 20px;
+  font-family: "Roboto Condensed", "Roboto Condeensed Placeholder";
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255, 195,0);
+  font-size: 14px;
+  line-height: 23px;
+  
+  
+
+}
+
+.ex-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 15px;
+  width: 15px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.ex-icon1{
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 769px) {
+  .Aboutus-Container {
+    padding: 20px;
+  }
+
+  
+  .About-us{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font-size: 16px;
+    padding: 12px;
+ 
+  }
+  .Features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font-size: 16px;
+    padding: 12px;
+ 
+  }
+
+  .About-que,
+  .Features-head {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .About-info,
+  .Features-info {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 20px;
+    max-width: 95%;
+    margin: 6vh auto 0;
+    text-align: center;
+  }
+
+  .Features-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* Two columns for tablets */
+    gap: 20px;
+    padding: 1rem;
+  }
+
+  .Features-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 12px;
+  }
+
+  .Features-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Features-heading {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .Features-inform {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 24px;
+  }
+
+  .modal-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .modal-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .back-to-page,
+  .include-features {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .include-features {
+    justify-content: center;
+  }
+
+  .Aboutus-Container .ex-icon,
+  .Aboutus-Container .ex-icon1 {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .Aboutus-Container {
+    margin-top:270vh;
+width: 100vw;
+
+  }
+
+  .About-us,
+  .Features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; /* Increased width for better fit on 480px screens */
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .About-que,
+  .Features-head {
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .About-info,
+  .Features-info {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 15px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .Features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .Features-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Only one card per row */
+    gap: 20px;
+    padding: 1rem;
+  }
+
+  .Features-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  .Features-heading {
+    font-size: 24px;
+  }
+
+  .Features-inform {
+    font-size: 13px;
+  }
+
+
+  .Features-icon{
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .modal-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .modal-text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .back-to-page,
+  .include-features {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .include-features {
+    justify-content: center;
+  }
+
+  .Aboutus-Container .ex-icon,
+  .Aboutus-Container .ex-icon1 {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 321px) {
+  .Aboutus-Container{
+    margin-top:200vh;
+    padding: 0px;
+    height: auto;
+  }
+
+
+
+  .About-us,
+  .Features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 14px;
+
+
+  
+   
+  }
+
+  .About-que,
+  .Features-head {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 10px;
+
+  }
+
+  .About-info,
+  .Features-info {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 15px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10vh;
+  }
+
+  .Features-grid {
+
+
+  
+    width: 100vw;
+   padding: 0px;
+    gap: 20px;
+    padding: 1rem;
+    border: 2px solid white;
+    display: flex;
+    flex
+   
+ 
+  
+               /* Optional: space between cards */
+  }
+  
+  .Features-card {
+   
+    width: 100%;            /* Full width inside the grid */
+    max-width: 100%;
+    padding: 0px;
+    margin-left: 150px;
+ 
+
+  }
+  
+  
+  .Features-heading {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .Features-inform {
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .modal-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .modal-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .back-to-page,
+  .include-features {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .include-features {
+    justify-content: center;
+  }
+
+  .Aboutus-Container .ex-icon,
+  .Aboutus-Container .ex-icon1 {
+margin-left: 0px;
+margin-right: 5px;
+   
+  }
+
+}

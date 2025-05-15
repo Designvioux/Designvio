@@ -1,0 +1,245 @@
+.project-process-section {
+  background-color: #0c0c0c;
+  color: #e5e5e5;
+  font-family: 'Arial', sans-serif;
+  padding: 4rem 2rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header .tag {
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+}
+
+.section-header h1 {
+  font-size: 60px;
+  font-weight: 400; /* You had weight 900 and then 400 again — kept 400 as per Bebas Neue style */
+  margin-bottom: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  color: rgb(204, 204, 204);
+  line-height: 72px;
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: rgb(163, 163, 163);
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.process-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #111;
+  border-radius: 1rem;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+}
+
+.steps {
+  flex: 1;
+  max-width: 600px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.step {
+  margin-bottom: 2rem;
+}
+
+.step h2 {
+ font-family: "Bebas Neue" , "Bebas Neue Placeholder" , sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ color:rgb(204,204,204);
+ font-size: 40px;
+ line-height: 44px;
+
+}
+
+.step p {
+font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+font-style: normal;
+font-weight: 400;
+color:rgb(163, 163, 163);
+font-size: 16px;
+line-height: 21px;
+}
+
+
+.prj{
+  filter: grayscale(100%);
+}
+
+
+
+
+@media (max-width: 480px) {
+  .project-process-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-header .tag {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.3rem;
+    margin-bottom: 0.8rem;
+    margin-left: 70px;
+    width: 130px;
+    margin-top: 0px;
+  
+    
+    
+  }
+  .p-text{
+  
+  }
+
+  .section-header h1 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 0.8rem;
+  }
+
+  .section-header p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    padding: 0 10px;
+  }
+
+  .process-container {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .image img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0.75rem;
+  }
+
+  .steps {
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .step h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .step p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .prj {
+    width: 100%;
+    max-width: 100%;
+    filter: grayscale(100%);
+  }
+  .ex-icon{
+    height: 20px;
+    margin-right: -10px;
+   
+  }
+}
+
+
+@media (max-width: 321px) {
+  .project-process-section {
+    padding: 2rem 1rem;
+    margin-top: 0px;
+  }
+
+  .section-header .tag {
+    width: 60%;
+    margin: 40px auto 20px;
+    padding: 6px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .section-header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 10px;
+  }
+
+  .project-process-section .ex-icon{
+    margin-right: -30px;
+    margin-left: 40px;
+  }
+
+  .process-container {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .image img {
+    max-width: 100%;
+    border-radius: 0.75rem;
+  }
+
+  .steps {
+    max-width: 100%;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+
+  .step h2 {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .step p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .prj {
+    width: 100%;
+  }
+}

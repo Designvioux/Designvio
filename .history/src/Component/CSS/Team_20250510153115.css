@@ -1,0 +1,243 @@
+/* .team-section {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: -100px;
+  width: 100%;
+}
+
+.team-tag {
+ 
+  display: flex;
+  margin-left: 670px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+
+}
+
+
+.team-title {
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 10px 0;
+  line-height: 72px;
+  color: rgb(204,204,204);
+  font-style: normal;
+}
+
+.team-description {
+  font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
+  font-size: 16px;
+  max-width: 750px;
+  margin: 0 auto 40px;
+  line-height: 21px;
+  color: #b0b0b0;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(163,163,163);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background-color: #000000;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+} 
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-info {
+  line-height: 33px;
+  font-size: 30px;
+  padding: 16px;
+  background-color: #000;
+}
+
+.team-info h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.team-info h3:hover {
+  color: darkorange;
+  cursor: pointer;
+}
+
+.insta h3:hover {
+  cursor: pointer;
+}
+
+.team-info p {
+  font-size: 1rem;
+  color: #999;
+  margin: 6px 0 0;
+  font-family: "Bebas Neue", "Bebas Neue Placeholder", sans-serif;
+}
+
+.ex-icon3{
+ 
+  
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+ .team-section {
+  background-color: #0c0c0c;
+  color: #ffffff;
+
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: -10vh;
+  width:100%;
+  padding: 10vh;
+}
+
+.team-tag {
+  display: flex;
+  margin: 8vh auto 0 auto;
+  border-radius: 2rem;
+  padding: 0.8rem 1.2rem;
+  justify-content: center;
+  border: 2px solid rgb(63, 62, 62);
+  width: max(8%, 120px);
+  color: #EEB701;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.team-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  margin: 1rem 0;
+  line-height: 1.2;
+  color: rgb(204, 204, 204);
+  font-style: normal;
+}
+
+.team-description {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  max-width: 80ch;
+  margin: 0 auto 3rem auto;
+  line-height: 1.5;
+  color: rgb(163, 163, 163);
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 2rem;
+  max-width: 80vw;
+  margin: 0 auto;
+
+}
+
+.team-card {
+  background-color: #000000;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+} 
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-info {
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: #000;
+}
+
+.team-info h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+
+.team-info h3:hover {
+  color: darkorange;
+  cursor: pointer;
+}
+
+.insta h3:hover {
+  cursor: pointer;
+}
+
+.team-info p {
+  font-size: 1rem;
+  color: #999;
+  margin: 0.4rem 0 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.ex-icon3 {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.4rem;
+}

@@ -1,0 +1,170 @@
+body{
+
+  margin: 0;
+  padding: 0;
+
+ 
+  
+
+}
+
+
+.Services-Container{
+  background-color: #0c0c0c;
+ 
+  border: 2px solid rgb(22, 22, 22);
+  height: auto;
+  border-radius: 50px;
+  
+  /* position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 100vh;
+  background-color: #0c0c0c; */
+  width: 100%;
+  height:100%;
+
+}
+
+.ex-icon{
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+}
+
+
+.uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+  /* font-size: 2px; */
+  color: #ffc107;
+  margin-bottom: 1rem;
+  height: 52px;
+}
+
+
+.Services-Container .Our-Services{
+
+ 
+  display: flex;
+  margin-left: 45vw;
+  border-radius: 40px;
+  padding: 12px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+width:10vw;
+
+font-size: 18px;
+line-height: 23px;
+
+}
+
+
+.Services-que{
+
+font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+font-style: normal;
+font-weight:400;
+color:rgb(204,204,204);
+font-size: 60px;
+line-height: 72px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-left: 0px;
+
+}
+
+.Services-Container .info {
+
+
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 240px;
+  max-width: 1000px;
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(163,163,163);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+.service-grid {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+ margin: 0 auto;
+}
+
+.service-card {
+  background-color: #161616;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-family: Bebas Neue, Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204,204,204);
+  font-size: 40px;
+  line-height: 44px;
+  
+}
+
+.service-card p {
+  
+font-family: Roboto Condensed, Roboto Condensed Placeholder;
+font-style: normal;
+font-weight: 400;
+color:rgb(122,122,122);
+font-size: 16px;
+line-height: 21px;
+
+
+}
+
+.service-card a {
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255,195,0);
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.service-card a:hover {
+  color: #ffd54f;
+}
+

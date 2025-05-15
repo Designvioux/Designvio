@@ -1,0 +1,486 @@
+body{
+
+  margin: 0;
+  padding: 0;
+
+ 
+  
+
+}
+
+
+.Services-Container{
+  background-color: #0c0c0c;
+ 
+  border: 2px solid rgb(22, 22, 22);
+  height: auto;
+  border-radius: 50px;
+  
+  /* position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 100vh;
+  background-color: #0c0c0c; */
+  width: 100%
+  he
+
+}
+
+.ex-icon{
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+}
+
+
+.uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+  /* font-size: 2px; */
+  color: #ffc107;
+  margin-bottom: 1rem;
+  height: 52px;
+}
+
+
+.Services-Container .Our-Services{
+
+ 
+  display: flex;
+  margin-left: 80vw;
+  border-radius: 40px;
+  padding: 12px;
+  margin-top: 100px;
+  justify-content: center;
+  border:2px solid rgb(63, 62, 62);
+  width: 8%;
+  color:#EEB701;
+
+ font-family:Roboto Condensed, sans-serif , Roboto Condensed Placeholder;
+font-style: normal;
+
+font-weight: 400;
+width: 50vw;
+
+font-size: 18px;
+line-height: 23px;
+
+}
+
+
+.Services-que{
+
+font-family: Bebas Neue , Bebas Neue Placeholder, sans-serif;
+font-style: normal;
+font-weight:400;
+color:rgb(204,204,204);
+font-size: 60px;
+line-height: 72px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+margin-left: 0px;
+
+}
+
+.Services-Container .info {
+
+
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 240px;
+  max-width: 1000px;
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(163,163,163);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+.service-grid {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+ margin: 0 auto;
+}
+
+.service-card {
+  background-color: #161616;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-family: Bebas Neue, Bebas Neue Placeholder, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(204,204,204);
+  font-size: 40px;
+  line-height: 44px;
+  
+}
+
+.service-card p {
+  
+font-family: Roboto Condensed, Roboto Condensed Placeholder;
+font-style: normal;
+font-weight: 400;
+color:rgb(122,122,122);
+font-size: 16px;
+line-height: 21px;
+
+
+}
+
+.service-card a {
+  font-family: Roboto Condensed, Roboto Condensed Placeholder;
+  font-style: normal;
+  font-weight: 400;
+  color:rgb(255,195,0);
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.service-card a:hover {
+  color: #ffd54f;
+}
+
+@media (max-width: 769px) {
+  .Services-Container {
+    border-radius: 25px;
+    margin-left: 0;
+    width: 100vw;
+  }
+
+  .Services-Container .Our-Services {
+    margin: 30px auto 15px;
+    width: 200px;
+    padding: 14px 18px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Our-Services .ex-icon {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  .Services-que {
+    font-size: 38px;
+    line-height: 45px;
+    margin-top: 30px;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .Services-Container .info {
+    font-size: 17px;
+    padding: 0 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .service-grid {
+    padding: 2.5rem 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 100vw;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .service-icon {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .service-card h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .service-card p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .Services-Container {
+    border-radius: 25px;
+ padding: 20px;
+    width: 100%;
+  }
+
+  .Services-Container .Our-Services {
+    margin: 30px auto 15px;
+    width: 180px;
+    padding: 12px 16px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Our-Services .ex-icon {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .Services-que {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 25px;
+    padding: 0 20px;
+  }
+
+  .Services-Container .info {
+    font-size: 16px;
+    padding: 0 16px;
+    margin-left: 0;
+  }
+
+  .service-grid {
+    padding: 2rem 1.5rem;
+    gap: 1.8rem;
+  }
+
+  .service-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-card h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .service-card p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+  .Services-Container {
+    border-radius: 25px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .Services-Container .Our-Services {
+    margin: 30px auto 15px;
+    width: 160px;
+    padding: 10px 14px;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Our-Services .ex-icon{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .Services-que {
+    font-size: 34px;
+    line-height: 38px;
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+
+  .Services-Container .info {
+    font-size: 15px;
+    padding: 0 12px;
+    margin-left: 0px;
+  }
+
+  .service-grid {
+    padding: 2rem 1.2rem;
+    gap: 1.5rem;
+
+  }
+  .service-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-icon {
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-card h3 {
+    font-size: 25px;
+    line-height: 32px;
+    
+  }
+
+  .service-card p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 321px) {
+  .Services-Container {
+    border-radius: 30px;
+    margin-left:0vw;
+   
+    width: 100%;
+    padding: 0px;
+
+  }
+
+
+  .Services-Container .ex-icon{
+    display: flex;
+margin-left: 0px;
+margin-right: 5px;
+  
+  }
+  .Services-Container .Our-Services {
+    margin: 40px auto 20px;
+    width: 150px;
+
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 70px;
+  }
+
+  .Services-que {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+
+  }
+
+  .Services-Container .info {
+    flex-direction: column;
+    margin: 0 auto;
+
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    padding: 1rem;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    margin-left: 27px;
+   
+  }
+
+  .service-card h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .service-card p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .service-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .uiux, .digital, .ecommerce, .consulting, .Nocode, .product1 {
+    display: flex;
+ margin-left: 80px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+  }
+
+ 
+}
