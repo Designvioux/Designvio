@@ -87,7 +87,7 @@ const ContactPopUp = ({ onClose }) => {
 
     if (isMobileDevice()) {
       // For Mobile: Use mailto to open Gmail App
-      const mailtoLink = `mailto:designvioux@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMobile: ${number}\n\n${message}`)}`;
+      const mailtoLink = `mailto:aniketpawar@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMobile: ${number}\n\n${message}`)}`;
       window.location.href = mailtoLink;
     } else {
       // For Desktop: Open Gmail Compose in browser

@@ -87,11 +87,11 @@ const ContactPopUp = ({ onClose }) => {
 
     if (isMobileDevice()) {
       // For Mobile: Use mailto to open Gmail App
-      const mailtoLink = `mailto:designvioux@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMobile: ${number}\n\n${message}`)}`;
+      const mailtoLink = `mailto:aniketpawar@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMobile: ${number}\n\n${message}`)}`;
       window.location.href = mailtoLink;
     } else {
       // For Desktop: Open Gmail Compose in browser
-      const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=designvioux@gmail.com&su=${encodeURIComponent(subject)}&body=${bodyContent}`;
+      const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=aniketpawar@gmail.com&su=${encodeURIComponent(subject)}&body=${bodyContent}`;
       window.open(gmailLink, '_blank');
     }
 

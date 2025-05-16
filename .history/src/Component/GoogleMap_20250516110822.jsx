@@ -9,8 +9,6 @@ const GoogleMapEmbed = () => {
       
       <div className='faq-top-text' > <img src={exclamination} className='ex-icon4'></img>Contact Us</div>
     </div>
-
-    <h2 className='google-heading' >Our Office Location</h2>
     <div className="google-map-container">
     
  
