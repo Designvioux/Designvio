@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.heroSection {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+
+}
+
+.page2, .page3 {
+  position: absolute;
+  z-index: 999;
+  width: 100vw;
+  background-color: black;
+  padding: 0vh 2vw;
+  margin: 0vh 0vw;
+ border: 2px solid red;
+}
+
+.page2 { top: 100vh; }
+.page3 { top: 250vh; position: relative; }
+
+:root {
+  --Portfolio-main: 3;
+  --Mobile-boxHeight: 80vh;
+  --Mobile-boxTopPadding: 2rem;
+  --Mobile-boxMargin: 6vh;
+}
+
+.process-container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#Mobile-box {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--Portfolio-main), var(--Mobile-boxHeight));
+  gap: var(--Mobile-boxMargin);
+  padding-bottom: calc(var(--Portfolio-main) * var(--Mobile-boxTopPadding));
+  margin-bottom: var(--Mobile-boxMargin);
+}
+
+#Med1 { --index: 1; }
+#Flex1 { --index: 2; }
+#Mall1 { --index: 3; }
+
+.Mobile-box {
+  position: sticky;
+  top: 0;
+  padding-top: calc(var(--index) * var(--Mobile-boxTopPadding));
+  background-color: black;
+  border: 0.2vh solid black;
+  max-width: 85vw;
+  margin-left: 6vw;
+}
+
+.Mobile-box-body {
+  box-sizing: border-box;
+  margin-top: 6vh;
+  flex-direction: column;
+  max-width: 90vw;
+  border-radius: 2rem;
+  box-shadow: 0 0 3vh 0 black;
+  height: var(--Mobile-boxHeight);
+  display: flex;
+  justify-content: center;
+}
+
+.back-container {
+  background-color: #0c0c0c;
+  width: 100vw;
+}
+
+/* ----------------- Responsive Media Queries ----------------- */
+
+/* Extra Small Devices (320px - 375px) */
+@media (max-width: 375px) {
+  :root {
+    --Mobile-boxHeight: 70vh;
+    --Mobile-boxTopPadding: 1rem;
+    --Mobile-boxMargin: 4vh;
+  }
+
+  .Mobile-box {
+    max-width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 4vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 2vh 0 black;
+  }
+}
+
+/* Small Devices (376px - 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  :root {
+    --Mobile-boxHeight: 75vh;
+    --Mobile-boxTopPadding: 1.5rem;
+    --Mobile-boxMargin: 5vh;
+  }
+
+  .Mobile-box {
+    max-width: 88vw;
+    margin-left: 6vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 5vh;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2.5vh 0 black;
+  }
+}
+
+/* Medium Devices (601px - 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  :root {
+    --Mobile-boxHeight: 75vh;
+    --Mobile-boxTopPadding: 2rem;
+    --Mobile-boxMargin: 5vh;
+  }
+
+  .Mobile-box {
+    max-width: 85vw;
+    margin-left: 6vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 5vh;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 3vh 0 black;
+  }
+}
+
+/* Tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --Mobile-boxHeight: 80vh;
+    --Mobile-boxTopPadding: 2rem;
+    --Mobile-boxMargin: 6vh;
+  }
+
+  .Mobile-box {
+    max-width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 5vh;
+    border-radius: 2rem;
+    box-shadow: 0 0 3vh 0 black;
+  }
+}
+
+/* Laptops (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  :root {
+    --Mobile-boxHeight: 80vh;
+    --Mobile-boxTopPadding: 2rem;
+    --Mobile-boxMargin: 6vh;
+  }
+
+  .Mobile-box {
+    max-width: 75vw;
+    margin-left: 12.5vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 5vh;
+    border-radius: 2rem;
+    box-shadow: 0 0 3vh 0 black;
+  }
+}
+
+/* Large Screens (1441px - 1920px) */
+@media (min-width: 1441px) and (max-width: 1920px) {
+  :root {
+    --Mobile-boxHeight: 75vh;
+    --Mobile-boxTopPadding: 2.5rem;
+    --Mobile-boxMargin: 6vh;
+  }
+
+  .Mobile-box {
+    max-width: 70vw;
+    margin-left: 15vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 5vh;
+    border-radius: 2rem;
+    box-shadow: 0 0 3vh 0 black;
+  }
+}
+
+/* Extra Large Screens (Above 1920px) */
+@media (min-width: 1921px) {
+  :root {
+    --Mobile-boxHeight: 70vh;
+    --Mobile-boxTopPadding: 3rem;
+    --Mobile-boxMargin: 8vh;
+  }
+
+  .Mobile-box {
+    max-width: 65vw;
+    margin-left: 17.5vw;
+  }
+
+  .Mobile-box-body {
+    margin-top: 6vh;
+    border-radius: 2rem;
+    box-shadow: 0 0 4vh 0 black;
+  }
+}
