@@ -15,12 +15,7 @@
   }
   
 
-  .Portfolio  .ex-icon{
-    height: 1.2rem;
-    width: 1.2rem;
-    margin-top: 0.3vh;
-    margin-right: 0.2rem;
-  }
+  
   .Portfolio {
     display: flex;
     margin: 30vh auto 0 auto;
@@ -319,7 +314,7 @@
     .Portfolio  .ex-icon{
     height: 5vw;
     width: 5vw;
-    margin-top: 0.3vh;
+    margin-top: 0.6vh;
   }
   
     .Portfolio-head {

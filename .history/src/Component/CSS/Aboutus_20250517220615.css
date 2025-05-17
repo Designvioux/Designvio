@@ -23,7 +23,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
-  padding-bottom:0rem ;
+  padding-bottom:0.3rem ;
 }
 
 /* Responsive heading */
@@ -65,7 +65,6 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
-  padding-bottom:0rem ;
 }
 
 /* Features header */
@@ -230,31 +229,20 @@ body {
   height: 1.2rem;
   width: 1.2rem;
   margin: 1rem 0.5rem;
-  margin-top: 2%;
-}
-
-.Features .ex-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1.2rem;
-  width: 1.2rem;
-  margin: 1rem 0.5rem;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 
 @media screen and (max-width: 426px) {
 
   .About-us {
-    margin: 310vh auto 0 auto;
+    margin: 240vh auto 0 auto;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
-    width: 50%;
-    font-size: 1rem;
+    padding: 10px 5vw;
+    width: 55%;
+    font-size: 12.5px;
     display: flex;
     line-height: 19px;
-    padding-bottom: 0rem;
   }
 
   .About-que {
@@ -271,26 +259,16 @@ body {
     max-width: 92%;
   }
 
-  .About-us  .ex-icon{
-   height: 5vw;
-   width: 5vw;
-   margin-top: 0rem;
+  .ex-icon{
+   height: 5px;
   }
   .Features {
     margin-top: 35px;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
-    width:50%;
-    font-size: 1rem;
+    padding: 10px 15px;
+    width: 65%;
+    font-size: 12.5px;
     line-height: 19px;
-    padding-bottom: 0rem;
-    
-  }
-
-  .Features .ex-icon {
-    height: 5vw;
-    width: 5vw;
-    margin-top: 0rem;
   }
 
   .Features-head {
@@ -381,14 +359,13 @@ body {
 @media screen and (max-width: 376px) {
 
   .About-us {
-    margin: 270vh auto 0 auto;
+    margin: 300vh auto 0 auto;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
+    padding: 10px 15px;
     width: 50%;
     font-size: 13px;
     display: flex;
     line-height: 20px;
-    padding-bottom: 0rem;
   }
 
   .About-que {
@@ -408,11 +385,10 @@ body {
   .Features {
     margin-top: 40px;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
+    padding: 10px 15px;
     width: 50%;
     font-size: 13px;
     line-height: 20px;
-    padding-bottom: 0rem;
   }
 
   .Features-head {

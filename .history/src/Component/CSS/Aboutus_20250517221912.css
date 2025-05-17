@@ -383,12 +383,11 @@ body {
   .About-us {
     margin: 270vh auto 0 auto;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
+    padding: 10px 15px;
     width: 50%;
     font-size: 13px;
     display: flex;
     line-height: 20px;
-    padding-bottom: 0rem;
   }
 
   .About-que {
@@ -408,11 +407,10 @@ body {
   .Features {
     margin-top: 40px;
     border-radius: 20px;
-    padding: 0.6rem 0vw;
+    padding: 10px 15px;
     width: 50%;
     font-size: 13px;
     line-height: 20px;
-    padding-bottom: 0rem;
   }
 
   .Features-head {

@@ -153,10 +153,7 @@ font-weight: 400;
   font-weight: 400;
   font-size: 1rem;
 }
-.team-tag  .ex-icon{
-  margin-right: 0.2rem;
-  margin-top: 0rem;
-}
+
 .team-title {
   font-family: "Bebas Neue", sans-serif;
   font-size: clamp(2.5rem, 6vw, 4.5rem);
@@ -282,7 +279,7 @@ border: 2px solid rgb(6, 6, 6);
   height: 1.25rem;
   width: 1.25rem;
   margin-right: 0.4rem;
- 
+  mar
 }
 @media (max-width: 426px) {
   .team-section {
