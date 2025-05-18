@@ -388,8 +388,8 @@ body {
     display: flex;
     line-height: 20px;
     padding-bottom: 0rem;
-    flex-direction: row;
- 
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
@@ -412,7 +412,7 @@ body {
     border-radius: 20px;
     padding: 0.6rem 0vw;
     width: 50%;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding-bottom: 0rem;
     text-align: center;
@@ -436,13 +436,13 @@ body {
   .About-us .ex-icon {
     font-size: 2.5rem;
     margin-top: 0vh;
-    height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    width: 7vw;
   }
 
   .Features .ex-icon {
-    height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    width: 7vw;
     margin-top: 1px;
   }
 
