@@ -129,82 +129,10 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
-import Aboutus from "./Component/Aboutus";
-import Home from "./Component/Home";
-import PortFolio from "./Component/Portfolio";
-import Services from "./Component/Services";
-import TeamSection from "./Component/Team";
-import Faqs from "./Component/Faqs";
-import Process from "./Component/Process";
-import Contact from "./Component/Contactus";
-import FooterNav from "./Component/FooterNavbar";
-import ContactPopUp from "./Component/ContactPopUp";
-import GoogleMapEmbed from "./Component/GoogleMap";
+// your other imports...
 
 const App = () => {
-  const [showFooter, setShowFooter] = useState(false);
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-  const handleContactClick = () => {
-    setIsPopupOpen(true);
-  };
-
-  const handleClosePopup = () => {
-    setIsPopupOpen(false);
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const hero = document.getElementById("home");
-      const services = document.getElementById("services");
-      const contact = document.getElementById("contact");
-
-      if (hero && services && contact) {
-        const heroBottom = hero.getBoundingClientRect().bottom;
-        const servicesTop = services.getBoundingClientRect().top;
-        const contactTop = contact.getBoundingClientRect().top;
-
-        const hasScrolledPastHero =
-          heroBottom <= 2 || servicesTop <= window.innerHeight / 2;
-        const footerIsInView = contactTop < window.innerHeight;
-
-        setShowFooter(hasScrolledPastHero && !footerIsInView);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // 🔒 Prevent Copying and Right Click
-  useEffect(() => {
-    const handleContextMenu = (e) => {
-      e.preventDefault();
-      alert("Right-click is disabled. Copying content is not allowed.");
-    };
-
-    const handleCopy = (e) => {
-      e.preventDefault();
-      alert("Copying content is disabled.");
-    };
-
-    const handleSelectStart = (e) => {
-      e.preventDefault();
-      alert("Text selection is disabled.");
-    };
-
-    document.addEventListener("contextmenu", handleContextMenu);
-    document.addEventListener("copy", handleCopy);
-    document.addEventListener("selectstart", handleSelectStart);
-
-    return () => {
-      document.removeEventListener("contextmenu", handleContextMenu);
-      document.removeEventListener("copy", handleCopy);
-      document.removeEventListener("selectstart", handleSelectStart);
-    };
-  }, []);
+  // your existing state, handlers, and useEffects here...
 
   return (
     <div style={{ userSelect: "none" }}>
@@ -232,6 +160,7 @@ const App = () => {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
+      {/* Your existing JSX */}
       <div className="heroSection" id="home">
         <Home onContactClick={handleContactClick} />
         {isPopupOpen && <ContactPopUp onClose={handleClosePopup} />}

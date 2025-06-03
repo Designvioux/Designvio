@@ -227,7 +227,7 @@ const App = () => {
         <meta property="og:url" content="https://designvio.in/" />
         <meta
           property="og:image"
-          content="https://designvio.in/preview-image.png"
+          content="https://designvio.in/preview-image.png
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>

@@ -3,12 +3,12 @@
   "name": "Designvio Pvt Ltd - UX/UI & Full Stack Courses",
   "icons": [
     {
-      "src": "./Images/favicon.ico",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./Images/favicon.ico",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

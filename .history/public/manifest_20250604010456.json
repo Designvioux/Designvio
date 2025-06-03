@@ -8,7 +8,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "./Images/favicon.ico",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "512x512"
     }
