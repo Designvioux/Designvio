@@ -209,7 +209,7 @@ const App = () => {
   return (
     <div style={{ userSelect: "none" }}>
       <Helmet>
-        <title>DesignVio | UX & Full Stack Development Courses and Development</title>
+        <title>DesignVio | UX & Full Stack Development Courses and De</title>
         <meta
           name="description"
           content="DesignVio offers premium UI/UX and Full Stack Development courses in Satara."
