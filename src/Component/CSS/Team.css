@@ -141,7 +141,7 @@ font-weight: 400;
 
 .team-tag {
   display: flex;
-  margin: 8vh auto 0 auto;
+  margin: 0vh auto 0 auto;
   border-radius: 2rem;
   padding: 0.8rem 1.2rem;
   justify-content: center;

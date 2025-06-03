@@ -21,7 +21,7 @@ const ProjectProcess = () => {
         </div>
         <div className="steps">
           <div className="step">
-            <h2>1 YOU SHARE, WE ANALYZE</h2>
+            <h2>01. YOU SHARE, WE ANALYZE</h2>
             <p>
               We begin by understanding your business, target audience, and project
               goals. Through user research, competitor analysis, and strategy development,

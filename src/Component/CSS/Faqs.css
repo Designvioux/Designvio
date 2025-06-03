@@ -2,7 +2,7 @@
 
 .faqs-container {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -240,7 +240,7 @@
 
   .faqs-container .faq-top-text {
     display: flex;
-    margin: 8vh auto 0 auto;
+    margin: 0vh auto 0 auto;
     border-radius: 2rem;
     padding: 0.4rem 1rem;
     justify-content: center;

@@ -82,8 +82,6 @@
 // };
 
 // export default Aboutus;
-
-
 import React, { useState } from 'react';
 import './CSS/Aboutus.css';
 import headset from '../Icons/headset.png';

@@ -58,7 +58,7 @@
 
 .Contact-Cont input,
 .Contact-Cont textarea {
-  width: 100%;
+  width: 95%;
   padding: 12px;
   
   border: 1px solid #555;
@@ -68,7 +68,7 @@
   color: white;
   font-family: "Roboto Condensed", "Roboto Condensed Placeholder", sans-serif;
   font-style: normal;
-  margin-left: -10px;
+  /* margin-left: -13px; */
 }
 
 .Contact-Cont button {
@@ -200,6 +200,13 @@ cursor: pointer;
     top: 8px;
     right: 8px;
   }
+   .Contact-Cont input,
+  .Contact-Cont textarea {
+    padding: 6px;
+  width: 95%;
+  margin: 0 auto;
+   
+  }
 }
 
 /* For devices <= 400px */
@@ -217,6 +224,7 @@ cursor: pointer;
   .Contact-Cont label {
     font-size: 14px;
     line-height: 28px;
+    
   }
 }
 
@@ -240,6 +248,8 @@ cursor: pointer;
   .Contact-Cont input,
   .Contact-Cont textarea {
     padding: 6px;
+    
+   
   }
 
   .Contact-Cont button {

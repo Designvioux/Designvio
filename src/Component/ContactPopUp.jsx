@@ -108,11 +108,28 @@ const ContactPopUp = ({ onClose }) => {
           <label>Enter Your Name</label>
           <input name="name" value={formData.name} onChange={handleChange} required />
 
-          <label>Enter Your Email</label>
-          <input name="email" type="email" value={formData.email} onChange={handleChange} required />
+<label>Enter Your Email</label>
+<input
+  name="email"
+  type="email"
+  value={formData.email}
+  onChange={handleChange}
+  pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+  title="Please enter a valid Gmail address (e.g., example@gmail.com)"
+  required
+/>
 
-          <label>Enter Your Mobile Number</label>
-          <input name="number" type="tel" value={formData.number} onChange={handleChange} required />
+<label>Enter Your Mobile Number</label>
+<input
+  name="number"
+  type="tel"
+  value={formData.number}
+  onChange={handleChange}
+  pattern="^\d{10}$"
+  title="Please enter a 10-digit mobile number"
+  required
+/>
+
 
           <label>Enter Subject</label>
           <input name="subject" value={formData.subject} onChange={handleChange} required />

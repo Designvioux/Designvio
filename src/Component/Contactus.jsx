@@ -4,7 +4,7 @@ import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id='contact'>
       <div className="footer-top">
         <div className="footer-left">
           <img src="../Images/DLogo.png" alt="Designvio Logo" className="footer-logo" />
